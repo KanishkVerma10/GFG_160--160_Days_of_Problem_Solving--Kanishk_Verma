@@ -49,14 +49,7 @@ public:
     int hIndex(vector<int>& citations) {
         int n = citations.size();
         // sorting the citations array in desccending order
-        sort(citations.begin(), citations.end(), std::greater<int>());
-        
-        // int s = 0, e = n-1;
-        // while(s <= e){
-        //     swap(citations[s], citations[e]);
-        //     s++;
-        //     e--;
-        // }
+        sort(citations.begin(), citations.end(), greater<int>());
         
         int H = 0;
         
