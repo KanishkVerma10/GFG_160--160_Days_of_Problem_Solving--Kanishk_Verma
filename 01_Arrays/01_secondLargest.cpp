@@ -12,24 +12,24 @@
 // Explanation: The largest element of the array is 10 and the second largest element is 5.
 
 class Solution {
-    public:
-      // Function returns the second
-      // largest elements
-      int getSecondLargest(vector<int> &arr){
-          if(arr.size() < 2) return -1;    
+  public:
+    // Function returns the second
+    // largest elements
+    int getSecondLargest(vector<int> &arr){
+        if(arr.size() < 2) return -1;    
           
-          int largest = INT_MIN;
-          int secondLargest = INT_MIN;
+        int largest = INT_MIN;
+        int secondLargest = INT_MIN;
           
-          for(int num : arr){
-              if(num > largest){
-                  secondLargest = largest;
-                  largest = num;
-              }
-              else if(num > secondLargest && num < largest){
-                  secondLargest = num;
-              }
-          }
-          return (secondLargest == INT_MIN) ? -1 : secondLargest;
-      }
-  };
+        for(int num : arr){
+            if(num > largest){
+                secondLargest = largest;
+                largest = num;
+            }
+            else if(num > secondLargest && num < largest){
+                secondLargest = num;
+            }
+        }
+        return (secondLargest == INT_MIN) ? -1 : secondLargest;
+    }
+};
