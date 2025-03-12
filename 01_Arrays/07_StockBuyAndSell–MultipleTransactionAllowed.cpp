@@ -22,7 +22,6 @@ int maximumProfit(vector<int> &prices) {
       if(prices[i] > prices[i-1]){
       ans = ans + (prices[i] - prices[i-1]);
       }
-  }
-          
+  }       
   return ans;
 }
