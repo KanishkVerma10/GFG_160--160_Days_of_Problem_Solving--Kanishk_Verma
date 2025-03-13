@@ -36,4 +36,4 @@ int getMinDiff(vector<int> &arr, int k) {
         }
         return ans;
         
-    }
+}
