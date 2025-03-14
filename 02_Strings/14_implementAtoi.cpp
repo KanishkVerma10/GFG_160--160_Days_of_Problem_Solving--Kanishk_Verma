@@ -58,4 +58,4 @@ class Solution {
           // 5. Return the final integer with sign
           return num*sign;
       }
-  };
+};
