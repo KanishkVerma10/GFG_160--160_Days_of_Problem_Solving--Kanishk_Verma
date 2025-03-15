@@ -25,7 +25,7 @@ int maxProduct(vector<int> &arr) {
             currMax = temp;
             
             maxPro = max(maxPro, currMax);
-        }
+}
         
         return maxPro;
     }
