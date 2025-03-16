@@ -22,10 +22,12 @@ void sortColors(vector<int>& nums) {
             i++;
             lt++;
         //if number is 2(greater than 1), put it in the last of array
-        else if(nums[i] > 1)
+        else if(nums[i] > 1){
             swap(nums[i], nums[gt]);
             gt--;
-        else
+        }
+        else{
             i++;
+        }
     }
 }
