@@ -12,7 +12,7 @@
 
 class Solution{
     // Recursive function to build the binary tree.
-    Node *buildTreeRecur(unordered_map<int,int> &mp, vector<int> &preorder, int &preIndex, int left, int right) {
+    Node *buildTreeRecur(unordered_map<int,int> &mp, vector<int> &preorder, int &preIndex, int left, int right){
     
         // For empty inorder array, return null
         if (left > right)
