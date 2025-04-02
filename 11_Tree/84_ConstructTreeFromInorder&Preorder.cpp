@@ -35,7 +35,7 @@ class Solution{
     }
     
     // Function to construct tree from its inorder and preorder traversals
-    Node *buildTree(vector<int> &inorder, vector<int> &preorder) {
+    Node *buildTree(vector<int> &inorder, vector<int> &preorder){
     	
       	// Hash map that stores index of a root element in inorder array
       	unordered_map<int,int> mp;
