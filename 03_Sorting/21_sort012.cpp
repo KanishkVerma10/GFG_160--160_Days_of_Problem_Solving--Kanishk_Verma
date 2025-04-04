@@ -10,7 +10,7 @@
 // Output: [0, 0, 1, 1, 2, 2]
 // Explanation: 0s 1s and 2s are segregated into ascending order.
 
-void sortColors(vector<int>& nums) {
+void sortColors(vector<int>& nums){
     int n = nums.size();
     int i = 0;
     int lt = 0, gt = n-1;
