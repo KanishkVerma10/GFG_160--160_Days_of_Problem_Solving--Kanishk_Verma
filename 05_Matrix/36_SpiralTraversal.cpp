@@ -38,7 +38,6 @@ vector<int> spirallyTraverse(vector<vector<int> > &mat){
             }
             left++;
         }
-    }
-    
+    }    
     return ans;
 }
