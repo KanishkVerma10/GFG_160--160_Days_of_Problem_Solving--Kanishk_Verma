@@ -15,7 +15,7 @@ string trimLeadingZeros(const string &s){
     return (firstOne == string::npos) ? "0" : s.substr(firstOne);
 }
 
-string addBinary(string& s1, string& s2) {
+string addBinary(string& s1, string& s2){
         
     s1 = trimLeadingZeros(s1);
     s2 = trimLeadingZeros(s2);
