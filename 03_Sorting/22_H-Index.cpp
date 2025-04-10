@@ -14,7 +14,7 @@
 // [Expected Approach] Using Counting Sort - O(n) Time and O(n) Space
 class Solution {
 public:
-    int hIndex(vector<int>& citations) {
+    int hIndex(vector<int>& citations){
         int n = citations.size();
 
         vector<int> freq(n+1, 0);
