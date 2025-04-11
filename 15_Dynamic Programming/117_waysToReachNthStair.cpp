@@ -22,7 +22,7 @@
 // 2. 1 step + 2 steps
 // 3. 2 steps + 1 step
 
-class Solution {
+class Solution{
     public:
         // DP - just like the fibonacci question, using memoization
         int solve(int n, vector<int> &dp){
